@@ -13,13 +13,16 @@ img{
 	margin:20px;
 	padding:10px;  
 }
+body{
+	background-color:#242424;
+}
 
 .header{
-	color: #ff00ff;
+	color: #039DC3;
 }
 
 .names{
-	color:black;
+	color:#E4E30F;
 }
 
 .groups{
@@ -31,29 +34,29 @@ img{
 #website{
 	grid-row:1;
 	grid-column:1;
-	border: #00e9ff solid 2px;
+	border: #EF0B7E solid 2px;
 }
 
 #curation{
 	grid-row:1;
 	grid-column:2;
-	border: #00e9ff solid 2px;
+	border: #EF0B7E solid 2px;
 }
 
 #exhibit{
 	grid-row:1;
 	grid-column:3;
-	border: #00e9ff solid 2px;
+	border: #EF0B7E solid 2px;
 }
 
 #special_thanks{
 	grid-row:1;
 	grid-column:4;
-	border: #00e9ff solid 2px;
+	border: #EF0B7E solid 2px;
 }
 
 #graphic_design{
 	grid-row:1;
 	grid-column:5;
-	border: #00e9ff solid 2px;
+	border: #EF0B7E solid 2px;
 }
