@@ -1,7 +1,10 @@
+body{
+	background-color:#1F1F1F;
+}
 main{
 	display:grid;
 	grid-template-columns: repeat(5,20%);
-	grid-template-rows: 2fr;
+	grid-template-rows: 2fr;	
 }
 ul{
 	list-style: none;
@@ -16,11 +19,11 @@ img{
 }
 
 .header{
-	color: #ff00ff;
+	color: #00A0C6;
 }
 
 .names{
-	color:black;
+	color:#FFFE00;
 	width: 120px;
 	max-width: 120px;
 	padding-right: 0px;
@@ -32,6 +35,8 @@ img{
 	padding:10px;
 	flex: 1;
 }
+
+
 
 #main {
 	display: flex;
@@ -53,30 +58,39 @@ img{
 #website{
 	grid-row:1;
 	grid-column:1;
-	border: #00e9ff solid 2px;
+	border: #F0037F solid 2px;
+	border-radius:30px;
 }
 
 #curation{
 	grid-row:1;
 	grid-column:2;
-	border: #00e9ff solid 2px;
+	border: #F0037F solid 2px;
+	border-radius:30px;
 }
 
 #exhibit{
 	grid-row:1;
 	grid-column:3;
-	border: #00e9ff solid 2px;
+	border: #F0037F solid 2px;
+	border-radius:30px;
 }
 
 #special_thanks{
 	grid-row:1;
 	grid-column:4;
-	border: #00e9ff solid 2px;
+	border: #F0037F solid 2px;
+	border-radius:30px;
 }
 
 #graphic_design{
 	grid-row:1;
 	grid-column:5;
-	border: #00e9ff solid 2px;
+	border: #F0037F solid 2px;
+	border-radius:30px;
+}
+
+#title{
+	color:#FFFE00;
 }
 
