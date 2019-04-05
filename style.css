@@ -36,8 +36,6 @@ img{
 	flex: 1;
 }
 
-
-
 #main {
 	display: flex;
 	flex-direction: row;
@@ -94,3 +92,23 @@ img{
 	color:#FFFE00;
 }
 
+#graphicImg{
+	visibility:hidden;
+	display:inline;
+}
+#exhibitImg{
+	visibility:hidden;
+	display:inline;
+}
+#curationImg{
+	visibility:hidden;
+	display:inline;
+}
+#websiteImg{
+	visibility:hidden;
+	display:inline;
+}
+
+#website:hover{
+	background-color:red;
+}
