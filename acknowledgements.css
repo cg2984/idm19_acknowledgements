@@ -92,35 +92,45 @@ img{
 	color:#FFFE00;
 }
 
+.groupImage{
+	position:absolute;
+	display:inline;
+
+}
+
 #graphicImg{
 	visibility:hidden;
-	display:inline;
 }
 #exhibitImg{
 	visibility:hidden;
-	display:inline;
 }
 #curationImg{
 	visibility:hidden;
-	display:inline;
 }
 #websiteImg{
 	visibility:hidden;
-	display:inline;
 }
 
-#website:hover{
-	background-color:red;
+#website:hover ~ #websiteImg{
+	visibility: visible;
+	position:static;
+	display:block;
 }
 
-#exhibit:hover{
-
+#exhibit:hover ~ #exhibitImg{
+	visibility: visible;
+	position:static;
+	display:block;
 }
 
-#curation:hover{
-
+#curation:hover ~ #curationImg{
+	visibility: visible;
+	position:static;
+	display:block;
 }
 
-#graphic-design:hover{
-	
+#graphic-design:hover ~ #graphicImg{
+	visibility: visible;
+	position:static;
+	display:block;
 }
